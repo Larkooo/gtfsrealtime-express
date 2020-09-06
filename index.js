@@ -16,8 +16,7 @@ app.use(function(req, res, next) {
   });
 
 // Getting api key from the apikey.txt file
-const apikey = fs.readFileSync("apikey.txt").toString();
-const databuses = fs.readFileSync("data.txt").toString();
+const apikey = "INSERT YOUR API KEY HERE";
 
 
 // Request settings, url & headers if needed
